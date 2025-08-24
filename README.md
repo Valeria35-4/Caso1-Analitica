@@ -63,4 +63,6 @@ Los gráficos generados se guardan automáticamente en la carpeta raíz (`profit
 
 ## Autores  
 
-Este repositorio fue desarrollado en el marco del curso **Analítica de Negocios** (Pontificia Universidad Javeriana, 2025-2).  
+Valeria Garcia Torres
+Andres Camilo Franco Rincon 
+Juan Pablo
