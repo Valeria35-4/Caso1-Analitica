@@ -63,6 +63,6 @@ Los gráficos generados se guardan automáticamente en la carpeta raíz (`profit
 
 ## Autores  
 
-Valeria Garcia Torres
-Andres Camilo Franco Rincon 
-Juan Pablo
+- Valeria Garcia Torres
+- Andres Camilo Franco Rincon 
+- Juan Pablo
