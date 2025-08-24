@@ -27,38 +27,27 @@ Este trabajo replica y extiende los análisis cuantitativos mediante **R**, inte
 
 ### Carpeta **Document**
 - **Web_Analytics.en.es.pdf**: Documento del caso original traducido al español, con instrucciones y contexto empresarial.  
-- **Reporte_Web_Analytics.pdf**: Reporte generado a partir del análisis en R (ejecutivo + resultados cuantitativos).  
+ 
 
 ### Carpeta **Scripts**
-El análisis se realiza en **R (versión ≥ 4.0.0)**. El script principal es:  
-
-- **analysis_QA.R**: Script que contiene el flujo completo del análisis:  
-  1. **Lectura y preparación de datos** desde `financials.xls` y `Weekly Visits.xls`.  
-  2. **Unión de métricas web y financieras** mediante claves de semanas.  
-  3. **Limpieza y transformación** de variables para análisis.  
-  4. **Cálculo de correlaciones** entre métricas (ingresos, visitas, libras vendidas, etc.).  
-  5. **Visualización de resultados**, incluyendo:  
-     - Serie de tiempo de *Profit*.  
-     - Barras comparativas de visitas por canal.  
-     - Diagramas de dispersión entre métricas (ej. ingresos vs. libras vendidas, ingresos vs. visitas únicas). 
+El análisis se realiza en **R (versión ≥ 4.0.0)**. 
+ 
+  1. **Lectura y preparación de datos**
+  2. **Unión de métricas web y financieras** 
+  3. **Limpieza y transformación** 
+  4. **Cálculo de correlaciones** 
+  5. **Visualización de resultados**
   6. **Analisis** 
 
  
 
 ### Carpeta **Data**
-- `financials.xls`: Datos financieros semanales de QA (Revenue, Profit, Lbs. Sold, Inquiries).  
-- `Weekly Visits.xls`: Datos de visitas web capturados en Google Analytics, desagregados por canal.  
+- `financials`
+- `Weekly Visits`  
+- `Daily Visits`
+- `Lbs. Sold`
+- `Demographics`
 
----
-
-## Notas de Uso  
-
-- Antes de ejecutar los scripts, configure el **directorio de trabajo** en la carpeta `Proyecto`.  
-- Instale los paquetes requeridos en R:  
-  ```r
-  install.packages(c("readxl", "dplyr", "ggplot2"))
-  ```  
-- El tiempo de ejecución dependerá de las características de su máquina.  
 
 ---
 
@@ -66,4 +55,4 @@ El análisis se realiza en **R (versión ≥ 4.0.0)**. El script principal es:
 
 Valeria Garcia Torres
 Andres Camilo Franco Rincon 
-Juan Pablo
+Juan Pablo Alonso
