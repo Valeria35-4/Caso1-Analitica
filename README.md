@@ -40,9 +40,10 @@ El análisis se realiza en **R (versión ≥ 4.0.0)**. El script principal es:
   5. **Visualización de resultados**, incluyendo:  
      - Serie de tiempo de *Profit*.  
      - Barras comparativas de visitas por canal.  
-     - Diagramas de dispersión entre métricas (ej. ingresos vs. libras vendidas, ingresos vs. visitas únicas).  
+     - Diagramas de dispersión entre métricas (ej. ingresos vs. libras vendidas, ingresos vs. visitas únicas). 
+  6. **Analisis** 
 
-Los gráficos generados se guardan automáticamente en la carpeta raíz (`profit_evolution.png`, `visits_by_channel.png`, etc.).  
+ 
 
 ### Carpeta **Data**
 - `financials.xls`: Datos financieros semanales de QA (Revenue, Profit, Lbs. Sold, Inquiries).  
