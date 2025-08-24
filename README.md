@@ -27,6 +27,7 @@ Este trabajo replica y extiende los análisis cuantitativos mediante **R**, inte
 
 ### Carpeta **Document**
 - **Web_Analytics.en.es.pdf**: Documento del caso original traducido al español, con instrucciones y contexto empresarial.  
+- **Pdf caso 1.pdf**: Documento con analisis y hallazgos
  
 
 ### Carpeta **Scripts**
